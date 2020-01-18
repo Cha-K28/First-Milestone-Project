@@ -1,0 +1,41 @@
+body {
+  background-color: #e1e8ed;
+}
+
+
+.footer {
+  position: relative;
+  min-height: 100px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+
+.container {
+  font-size: 20px;
+  
+}
+
+.back-image {
+  width: 100% ;
+  padding: 0px;
+  border: solid 10px #53f2dd;
+  border-radius: 50px;
+  margin: 50px 10px 50px 10px;
+}
+
+p {
+  margin-bottom: 50px;
+}
+
+
+img{
+    
+    width: 300px;
+    height: 200px;
+    margin-top: 75px;
+    margin-left: 75px;
+}
