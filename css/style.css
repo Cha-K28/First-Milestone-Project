@@ -5,8 +5,10 @@ body {
 
 
 .container {
+  
   font-size: 20px;
   color: #757575;
+  text-align: justify;
 
 }
 
@@ -22,11 +24,11 @@ body {
 .background-image {
   background-image: url(../images/background.png);
   background-size: cover;
-  height: 500px; /* You must set a specified height */
+  height: 500px;
   width: auto;
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  margin: 50px;
+  background-position: center;
+  background-repeat: no-repeat;   
+  margin-bottom: 50px;
   
 }
 
@@ -34,9 +36,6 @@ p {
   margin-bottom: 50px;
 }
 
-.whitediv {
-  background-color: white;
-}
 
 
 img {
@@ -44,10 +43,27 @@ img {
   margin-left: 75px;
   width: 300px;
   height: 200px;
-  margin-top: 50px;
   border: solid;
 
 }
+
+.bright_background {
+  background-color: #f2f2f2;
+}  
+
+
+button {
+  margin-bottom: 15px;
+  border-radius: 25px;
+  color: white;
+  background-color: #757575;
+  
+ 
+  
+}
+
+
+/* ---------------------------------- contact form */
 
 input[type=email] {
   width: 100%;
@@ -85,15 +101,23 @@ input[type=submit] {
 
 }
 
+/* ----------------------------------------- Contat Form */
+
+
+
 /* ----------------------------footer */
 
-footer {
+.footer {
+  margin-top: 50px ;
+}
+
+
+.footer_background {
   background-color: #757575;
   height: 75px;
   position: relative;
   width: 100%;
-  left: 0;
-  bottom: 0;
+  
 
 }
 
@@ -101,17 +125,26 @@ h4,
 a {
   margin-top: 10px;
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Exo', sans-serif;
   color: white;
   text-transform: uppercase;
 }
 
-.footer_box {
+
+
+@media (Min-Width:768px) {
+  
+  .footer_box {
   border-right: solid 2px white;
+  }
+  
 }
 
 
+
+
 h1 {
+  margin-bottom: 50px;
   text-align: center;
   text-transform: uppercase;
   font-size: 50px;
@@ -120,3 +153,5 @@ h1 {
   color: white;
   
 }
+
+/* ------------------------------footer */
