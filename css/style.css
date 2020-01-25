@@ -2,38 +2,59 @@ body {
   background-color: #e1e8ed;
 }
 
+h1 {
+  margin-bottom: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-family: 'Exo', sans-serif;
+  background-color: #75757573;
+  color: white;
 
+}
+
+h2 {
+  text-align: left;
+}
 
 .container {
-  
+
   font-size: 20px;
   color: #757575;
   text-align: justify;
 
 }
 
-.back-image {
-  height: 100%;
-  width: 100%;
-  padding: 0px;
-  border: solid 10px #53f2dd;
-  border-radius: 50px;
-  margin: 50px 10px 50px 10px;
-}
+
+
 
 .background-image {
   background-image: url(../images/background.png);
   background-size: cover;
-  height: 500px;
+  height: 450px;
   width: auto;
   background-position: center;
-  background-repeat: no-repeat;   
+  background-repeat: no-repeat;
   margin-bottom: 50px;
-  
+
+
 }
+
+.background-image-2 {
+  background-image: url(../images/backround_image_2.jpg);
+  background-size: cover;
+  height: 200px;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+
+}
+
 
 p {
   margin-bottom: 50px;
+
 }
 
 
@@ -49,18 +70,50 @@ img {
 
 .bright_background {
   background-color: #f2f2f2;
-}  
+}
 
 
 button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 15px;
   border-radius: 25px;
   color: white;
   background-color: #757575;
-  
- 
-  
+
 }
+
+button:hover {
+  background-color: #f2f2f2 ;
+  border: solid 1px #757575 ;
+  transition-duration: 3s;
+}
+
+a:hover {
+  color: #757575 ;
+  transition-duration: 2s;
+}
+
+
+
+
+@media (Max-Width:768px) {
+
+  .background-image {
+    height: 350px;
+  }
+}
+
+
+@media (Max-Width:375px) {
+
+  .background-image {
+    height: 200px;
+  }
+}
+
+
 
 
 /* ---------------------------------- contact form */
@@ -68,10 +121,10 @@ button {
 input[type=email] {
   width: 100%;
   background-color: white;
-  color: #757575;
+  color: #75757573;
   padding: 10px 20px;
   margin: 8px 0;
-  border: solid #757575 1px;
+  border: solid #75757573 1px;
   border-radius: 4px;
   cursor: pointer;
 
@@ -80,10 +133,10 @@ input[type=email] {
 input[type=text] {
   width: 100%;
   background-color: white;
-  color: #757575;
+  color: #75757573;
   padding: 10px 20px;
   margin: 8px 0;
-  border: solid #757575 1px;
+  border: solid #75757573 1px;
   border-radius: 4px;
   cursor: pointer;
 
@@ -92,37 +145,40 @@ input[type=text] {
 input[type=submit] {
   width: 100px;
   height: 30px;
-  border-radius: 25%;
-  border: solid #757575 1px;
+  border-radius: 25px;
+  border: solid #75757573 1px;
   margin-top: 10px;
   color: white;
-  background-color: #757575;
+  background-color: #75757573;
   margin-bottom: 10px;
 
 }
 
 /* ----------------------------------------- Contat Form */
 
+a {
+  font-family: "Exo", sans-serif;
+  color: white;
+}
 
 
 /* ----------------------------footer */
 
 .footer {
-  margin-top: 50px ;
+  margin-top: 50px;
 }
 
 
 .footer_background {
-  background-color: #757575;
+  background-color: #75757573;
   height: 75px;
   position: relative;
   width: 100%;
-  
+
 
 }
 
-h4,
-a {
+h4 {
   margin-top: 10px;
   text-align: center;
   font-family: 'Exo', sans-serif;
@@ -133,25 +189,12 @@ a {
 
 
 @media (Min-Width:768px) {
-  
+
   .footer_box {
-  border-right: solid 2px white;
+    border-right: solid 2px white;
   }
-  
+
 }
 
-
-
-
-h1 {
-  margin-bottom: 50px;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 50px;
-  font-family: 'Exo', sans-serif;
-  background-color: #757575;
-  color: white;
-  
-}
 
 /* ------------------------------footer */
