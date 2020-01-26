@@ -2,20 +2,56 @@ body {
   background-color: #e1e8ed;
 }
 
-h1 {
-  margin-bottom: 50px;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 35px;
-  font-family: 'Exo', sans-serif;
+
+/* --------------------------------------- headings etc*/
+
+.top_headings {
   background-color: #75757573;
-  color: white;
+ 
+}
+
+h1 {
+  width: fit-content;
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Exo', sans-serif;
+  color: #f2f2f2;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-left: solid 3px #f2f2f2;
+  border-right: solid 3px #f2f2f2;
+  margin-bottom: 50px;
 
 }
+
+@media (Min-Width:768px) {
+
+  h1 {
+    border-right: solid 2px #f2f2f2;
+  }
+
+} 
 
 h2 {
   text-align: left;
 }
+
+
+h4 {
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+/*----------------------------------------------- headings etc close */
+
+/*----------------------------------------------- main content */
 
 .container {
 
@@ -24,7 +60,6 @@ h2 {
   text-align: justify;
 
 }
-
 
 
 
@@ -39,6 +74,22 @@ h2 {
 
 
 }
+
+@media (Max-Width:768px) {
+
+  .background-image {
+    height: 350px;
+  }
+}
+
+
+@media (Max-Width:414px) {
+
+  .background-image {
+    height: 200px;
+  }
+}
+
 
 .background-image-2 {
   background-image: url(../images/backround_image_2.jpg);
@@ -58,16 +109,6 @@ p {
 }
 
 
-
-img {
-
-  margin-left: 75px;
-  width: 300px;
-  height: 200px;
-  border: solid;
-
-}
-
 .bright_background {
   background-color: #f2f2f2;
 }
@@ -80,7 +121,7 @@ button {
   margin-bottom: 15px;
   border-radius: 25px;
   color: white;
-  background-color: #757575;
+  background-color: #af2626;
 
 }
 
@@ -88,31 +129,22 @@ button:hover {
   background-color: #f2f2f2 ;
   border: solid 1px #757575 ;
   transition-duration: 3s;
+
 }
+
+
+a {
+  font-family: "Exo", sans-serif;
+  color: white;
+}
+
 
 a:hover {
   color: #757575 ;
   transition-duration: 2s;
 }
 
-
-
-
-@media (Max-Width:768px) {
-
-  .background-image {
-    height: 350px;
-  }
-}
-
-
-@media (Max-Width:375px) {
-
-  .background-image {
-    height: 200px;
-  }
-}
-
+/*----------------------------------------end main content */
 
 
 
@@ -154,12 +186,8 @@ input[type=submit] {
 
 }
 
-/* ----------------------------------------- Contat Form */
+/* ----------------------------------------- Contact Form */
 
-a {
-  font-family: "Exo", sans-serif;
-  color: white;
-}
 
 
 /* ----------------------------footer */
@@ -176,14 +204,6 @@ a {
   width: 100%;
 
 
-}
-
-h4 {
-  margin-top: 10px;
-  text-align: center;
-  font-family: 'Exo', sans-serif;
-  color: white;
-  text-transform: uppercase;
 }
 
 
