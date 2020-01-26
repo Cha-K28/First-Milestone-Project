@@ -102,6 +102,7 @@ The media queries also work as the should - for example the large picture on the
 
 Deployment:
 
+Deploying the website was quite simple as I used Github Pages.
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
