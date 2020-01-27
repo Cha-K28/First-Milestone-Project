@@ -122,12 +122,13 @@ button {
   border-radius: 25px;
   color: white;
   background-color: #af2626;
+  border: none;
 
 }
 
 button:hover {
   background-color: #f2f2f2 ;
-  border: solid 1px #757575 ;
+  color: #757575 ;
   transition-duration: 3s;
 
 }
@@ -142,6 +143,10 @@ a {
 a:hover {
   color: #757575 ;
   transition-duration: 2s;
+}
+
+.red-color {
+  color: #af2626 ;
 }
 
 /*----------------------------------------end main content */

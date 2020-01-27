@@ -96,6 +96,10 @@ The form works as it should and will not let the user submit without having a co
 
 The media queries also work as the should - for example the large picture on the home page will resize as the screen decreases in size. 
 
+I tested the website on various different screen sizes and monitors. 
+
+I also tested the site on Chrome, Firefox and Safari browsers.
+
 
                                 ---------------------------------------------------------------------
                                 
@@ -104,6 +108,8 @@ Deployment:
 
 Deploying the website was quite simple as I used Github Pages.
 
+Following Deployment i did notice a one small issue with the red button on the home page. On a windows version of chrome and on firefox
+a grey border appeared around half of the button. I solved this by setting the border of the button to "none" and it appeared to work fine. 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
