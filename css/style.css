@@ -65,7 +65,7 @@ h4 {
 
 
 .background-image {
-  background-image: url(../images/background.png);
+  background-image: url(../images/background_image_1.jpg);
   background-size: cover;
   height: 450px;
   width: auto;
@@ -93,7 +93,7 @@ h4 {
 
 
 .background-image-2 {
-  background-image: url(../images/backround_image_2.jpg);
+  background-image: url(../images/background_image_2.png);
   background-size: cover;
   height: 200px;
   width: auto;
@@ -105,7 +105,7 @@ h4 {
 
 .background-image-3 {
   
-  background-image: url(../images/background-image-3.jpg);
+  background-image: url(../images/background_image_3.jpg);
   background-size: cover;
   height: 300px;
   width: auto;
