@@ -208,10 +208,14 @@ input[type=submit] {
   height: 75px;
   position: relative;
   width: 100%;
-
-
 }
 
+@media (Max-width:768px) {
+  .footer_background {
+    height: fit-content;
+  }
+}
+  
 
 
 @media (Min-Width:768px) {
