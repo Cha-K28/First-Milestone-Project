@@ -11,7 +11,6 @@ body {
 }
 
 h1 {
-  width: fit-content;
   display: block;
   text-align: center;
   font-size: 40px;
@@ -22,6 +21,9 @@ h1 {
   padding-left: 50px;
   padding-right: 50px;
   margin-bottom: 50px;
+  width: fit-content;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
 
 }
 
