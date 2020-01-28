@@ -78,6 +78,10 @@ Google Fonts:   "https://fonts.google.com/"
 
  - Google fonts was use to style the fonts used throughout the website.
 
+Font Awesome:   "https://fontawesome.com/"
+
+ - Font awsome was used for the icons on the website.
+
 W3schools:  "https://www.w3schools.com/css/default.asp"
 
  - I used W3 schools at various stages of the project to help me implent different features such as the media queries and the hover function. 
