@@ -5,17 +5,13 @@ body {
 
 /* --------------------------------------- headings etc*/
 
-.top_headings {
-  background-color: #75757573;
- 
-}
 
 h1 {
   display: block;
   text-align: center;
   font-size: 40px;
   font-family: 'Exo', sans-serif;
-  color: #f2f2f2;
+  color: #757575;
   margin-left: auto;
   margin-right: auto;
   padding-left: 50px;
@@ -30,8 +26,8 @@ h1 {
 @media (Min-Width:768px) {
 
   h1 {
-    border-right: solid 3px #f2f2f2;
-    border-left: solid 3px #f2f2f2;
+    border-right: solid 3px #757575;
+    border-left: solid 3px #757575;
   }
 
 } 
@@ -56,11 +52,19 @@ h4 {
 
 .container {
 
-  font-size: 20px;
+  font-size: 16px;
   color: #757575;
-  text-align: justify;
+  text-align: left;
 
 }
+
+img  {
+  width: 100%;
+  vertical-align: middle;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
 
 
 
@@ -128,6 +132,7 @@ p {
 
 
 button {
+  height: 30px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -164,11 +169,23 @@ a:hover {
 
 
 
+
+
+
 /*----------------------------------------end main content */
 
 
 
 /* ---------------------------------- contact form */
+
+
+.contact_text {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 input[type=email] {
   width: 100%;
@@ -192,6 +209,18 @@ input[type=text] {
   border-radius: 4px;
   cursor: pointer;
 
+}
+
+input[type=message] {
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  color: #7575;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: solid #7575 2px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 input[type=submit] {
@@ -218,7 +247,7 @@ input[type=submit] {
 
 
 .footer_background {
-  background-color: #75757573;
+  background-color: #222222;
   height: 75px;
   position: relative;
   width: 100%;
