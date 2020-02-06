@@ -107,7 +107,7 @@ img {
 .background-image {
   background-image: url(../images/background_image_1.jpg);
   background-size: cover;
-  height: 200px;
+  height: 250px;
   width: auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -119,7 +119,7 @@ img {
 @media (Max-Width:768px) {
 
   .background-image {
-    height: 100px;
+    height: 150px;
   }
 }
 
