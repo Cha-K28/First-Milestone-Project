@@ -6,31 +6,7 @@ body {
 
 /* --------------------------------------- headings etc*/
 
-h1 {
-  display: block;
-  text-align: center;
-  font-size: 40px;
-  font-family: 'Exo', sans-serif;
-  color: #757575;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-bottom: 50px;
-  width: fit-content;
-  width: -moz-fit-content;
-  width: -webkit-fit-content;
 
-}
-
-@media (Min-Width:768px) {
-
-  h1 {
-    border-right: solid 3px #757575;
-    border-left: solid 3px #757575;
-  }
-
-}
 
 h2 {
 
@@ -91,7 +67,7 @@ h4 {
 
 }
 
-
+/*----------------------------------------------------- images */
 
 img {
   width: 100%;
@@ -107,7 +83,7 @@ img {
 .background-image {
   background-image: url(../images/background_image_1.jpg);
   background-size: cover;
-  height: 250px;
+  height: 200px;
   width: auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -133,6 +109,8 @@ img {
   margin-right: auto;
   margin-left: auto;
 }
+
+/*----------------------------------------------------- end images */
 
 
 

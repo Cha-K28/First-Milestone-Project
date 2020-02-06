@@ -25,9 +25,9 @@ This is an informative website which should by easy to use for any type of user.
 
 It is laid out in such a way that it is easy to navigate by using the Nav bar or the hyperlinks or buttons built into each page.
 
-The Home page has a large colourful image to attract the user from the second they enter the site followed by a brief outline about the site. Further down the page there is an obvois
-button to click which will bring the user directly to the next page where they will get be informed of what ADAS is and a littel background that will allow
-the user to link ADAS with more commoin features in cars today. 
+The Home page has a large striking image to attract the user from the second they enter the site followed by a brief outline about the site. Further down the page there is an obvois
+button to click which will bring the user directly to the next page where they will get be informed of what ADAS is and a little background that will allow
+the user to link ADAS with more common features in cars today. 
 
 At this stage the user will know if the they want to stayon the site or not. there is a link to the examples page in the nav bar and at the bottom of the second page. 
 
@@ -46,7 +46,7 @@ The home page can also be accessed from any other page on the site by clickig th
                             
 Features
 
-As this is is a basic informative website there are not many interactive features. 
+As this is is a basic informative website, there are not many interactive features. 
 
 As part of the user experience though  there are multible buttons/ links to click that will redirect the user to different parts of the site. 
 
@@ -98,7 +98,7 @@ Each button and hyperlink in the website is clickable and redirects the user to 
 
 The form works as it should and will not let the user submit without having a correct email address entered. 
 
-The media queries also work as the should - for example the large picture on the home page will resize as the screen decreases in size. 
+The media queries also work as they should. 
 
 I tested the website on various different screen sizes and monitors. 
 
@@ -110,7 +110,11 @@ I also tested the site on Chrome, Firefox and Safari browsers on both a Windows 
 
 Deployment:
 
-Deploying the website was quite simple as I used Github Pages.
+Deploying the website was quite simple as I used Github Pages. The steps to do this were as follows
+
+- push to github
+- click on settings
+- Scroll down to github pages
 
 Following Deployment i did notice a one small issue with the red button on the home page. On a windows version of chrome and on firefox
 a grey border appeared around half of the button. I solved this by setting the border of the button to "none" and it appeared to work fine. 
@@ -118,14 +122,7 @@ a grey border appeared around half of the button. I solved this by setting the b
 Other issues i noticed following deployment and testing was that some browsers did not support certain  element attributes. i worked around this using
  CSS prefixs for the browsers. 
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
                                 ----------------------------------------------------------------------
                                 
@@ -138,12 +135,23 @@ All the content in this website was written by myself.
 
 Media:
 
-Both pictures used in the site were found through a google search.
+All pictures used in the site were found through a google search.
 
-Photo one: "https://plsadaptive.s3.amazonaws.com/eco/images/channel_content/images/adas.png"
+Picture one: "https://www.autopolar.net/wp-content/uploads/2018/03/97a76d0a9c21be0b2c0ae7479b860e88-1920x960.jpg" 
 
-Photo two: "https://www.ansys.com/-/media/ansys/corporate/social/automotive/adas-1200x600.jpg"
+Picture two: "https://www.ansys.com/-/media/ansys/corporate/social/automotive/adas-1200x600.jpg"
 
+Picture three: "https://www.researchgate.net/figure/Advanced-driver-assistance-systems-ADAS-for-active-passive-safety-comfort-functionality_fig1_328920450"
+
+Picture four: "https://icdn8.digitaltrends.com/image/digitaltrends/adaptive-cruise-control-rr-416x416.jpg"
+
+Picture five: "https://s1.cdn.autoevolution.com/images/news/gallery/lane-keeping-assist-systems-explained_1.jpg"
+
+Picture six: "https://babydrive.com.au/wp-content/uploads/2018/06/Adaptive-headlights.jpg"
+
+Picture seven: "https://dzag5wgsqu6mr.cloudfront.net/wp-content/uploads/2014/06/Blind-Spot-Monitor.jpg"
+
+Picture eight:  "https://www.autoguide.com/blog/wp-content/uploads/2018/12/Audi-Autonomous-Brake-Assist-1.jpg"
 
                                 -----------------------------------------------------------------------
                                 
@@ -156,9 +164,11 @@ and learn from.
 
 The ideas for the website came from my work with cartell.ie who have been very accomidating while i do the course. 
 
-I got great inspiration from the Irish site ADAS.ie
+I got great inspiration from the Irish site ADAS.ie and simplesite.com
 
-The IT team at work who have gave me advice when needed just the creatin of the website. 
+The IT team at work who have gave me advice when needed.
+
+To Ali my mentor for his wonderful guidence and advice. 
 
 
 
