@@ -6,7 +6,6 @@ body {
 
 /* --------------------------------------- headings etc*/
 
-
 h1 {
   display: block;
   text-align: center;
@@ -31,11 +30,18 @@ h1 {
     border-left: solid 3px #757575;
   }
 
-} 
+}
 
 h2 {
+
   text-align: center;
 }
+
+h3 {
+  text-align: center;
+  color: #af2626;
+}
+
 
 
 h4 {
@@ -59,12 +65,15 @@ h4 {
   width: 75%;
 }
 
+.navbar_offset {
+  margin-top: 50px;
+}
 
 
 .dark_background {
   background-color: #222222;
-  
-  
+
+
 
 }
 
@@ -84,7 +93,7 @@ h4 {
 
 
 
-img  {
+img {
   width: 100%;
   vertical-align: middle;
   margin-bottom: 5%;
@@ -115,30 +124,16 @@ img  {
 }
 
 
-
-
-.background-image-2 {
-  background-image: url(../images/background_image_2.png);
-  background-size: cover;
-  height: 200px;
-  width: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-bottom: 50px;
-
+.sensor_image {
+  display: block;
+  width: 75%;
+  vertical-align: middle;
+  margin-bottom: 5%;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.background-image-3 {
-  
-  background-image: url(../images/background_image_3.jpg);
-  background-size: cover;
-  height: 300px;
-  width: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-bottom: 50px;
-  opacity: 0.8;
-}
 
 
 p {
@@ -148,7 +143,7 @@ p {
 
 
 .bright_background {
-  background-color: #white;
+  background-color: white;
   color: white;
 }
 
@@ -167,14 +162,14 @@ button {
 }
 
 button:hover {
-  background-color: #f2f2f2 ;
-  color: #757575 ;
+  background-color: #f2f2f2;
+  color: #757575;
   transition-duration: 3s;
 
 }
 
 .red-color {
-  color: #af2626 ;
+  color: #af2626;
 }
 
 
@@ -185,7 +180,7 @@ a {
 
 
 a:hover {
-  color: #757575 ;
+  color: #757575;
   transition-duration: 2s;
 }
 
@@ -196,25 +191,18 @@ a:hover {
 
 /*----------------------------------------end main content */
 
-
-
 /* ---------------------------------- contact form */
 
-
-
- 
-
-
-@media (min-width:991px){
+@media (min-width:991px) {
   .contact_text {
-  border: solid 2px #222222;
-  border-radius: 5px;
-  padding: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  background-color: white;
+    border: solid 2px #222222;
+    border-radius: 5px;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: white;
   }
 }
 
@@ -269,8 +257,6 @@ input[type=submit] {
 
 /* ----------------------------------------- Contact Form */
 
-
-
 /* ----------------------------footer */
 
 .footer {
@@ -286,7 +272,7 @@ input[type=submit] {
 }
 
 @media (Max-width:768px) {
-  
+
   .footer_background {
     height: fit-content;
     height: -moz-fit-content;
@@ -294,7 +280,7 @@ input[type=submit] {
   }
 
 }
-  
+
 
 
 @media (Min-Width:768px) {
